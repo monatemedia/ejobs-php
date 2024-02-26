@@ -3,7 +3,11 @@
 <?= loadPartial('showcase-search')?>
 <?= loadPartial('top-banner')?>
 
-
+<?php
+/** 
+ * To start server
+ * php -S localhost:8000 -t public
+*/?>
 
 
     <!-- Job Listings -->
