@@ -1,0 +1,16 @@
+{
+    "name": "monatemedia/ejobs-php",
+    "description": "Job listing application",
+    "authors": [
+        {
+            "name": "Edward Baitsewe",
+            "email": "edward@monatemedia.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "Framework/",
+            "App\\": "App/"
+        }
+    }
+}
