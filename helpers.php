@@ -82,6 +82,6 @@ function formatSalary($salary) {
  * @param string $dirty
  * @return string
  */
-function sanitise($dirty) {
+function sanitize($dirty) {
     return filter_var(trim($dirty), FILTER_SANITIZE_SPECIAL_CHARS);
 }
